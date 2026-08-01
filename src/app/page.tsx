@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowRight, Sparkles, Quote } from "lucide-react";
 import { useLanguage } from "@/lib/i18n/context";
 import { services } from "@/data/services";
@@ -73,6 +74,18 @@ export default function Home() {
                 <p className="mt-1 text-xs text-foreground/55">{s.label}</p>
               </div>
             ))}
+          </div>
+
+          <div className="relative mx-auto mt-16 aspect-[21/9] max-w-5xl overflow-hidden rounded-[2rem] shadow-xl shadow-black/10">
+            <Image
+              src="/images/hero-community.jpg"
+              alt={t.hero.trustNote}
+              fill
+              priority
+              sizes="(min-width: 1024px) 1024px, 100vw"
+              className="object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-black/0 to-black/0" />
           </div>
         </div>
       </section>

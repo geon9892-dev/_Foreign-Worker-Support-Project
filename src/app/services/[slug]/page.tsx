@@ -2,6 +2,7 @@
 
 import { useParams } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowLeft, ArrowRight, Check } from "lucide-react";
 import { useLanguage } from "@/lib/i18n/context";
 import { getService, services } from "@/data/services";
@@ -32,7 +33,23 @@ export default function ServiceDetailPage() {
     <div>
       {/* Hero */}
       <section className={`relative overflow-hidden bg-gradient-to-br ${service.color}`}>
-        <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8">
+        {service.image && (
+          <>
+            <Image
+              src={service.image}
+              alt={text.name}
+              fill
+              priority
+              sizes="100vw"
+              className="object-cover"
+            />
+            <div
+              className={`absolute inset-0 bg-gradient-to-br ${service.color} opacity-75 mix-blend-multiply`}
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/10 to-black/10" />
+          </>
+        )}
+        <div className="relative mx-auto max-w-5xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8">
           <Link
             href="/services"
             className="inline-flex items-center gap-1.5 text-sm font-medium text-white/80 hover:text-white"
