@@ -67,6 +67,7 @@ export const services: ServiceDef[] = [
     slug: "school",
     icon: "GraduationCap",
     color: "from-pink-500 to-rose-500",
+    image: "/images/services/school.jpg",
     tiers: [
       { id: "consult", priceKrw: 0 },
       { id: "admission", priceKrw: 200000 },
@@ -76,6 +77,7 @@ export const services: ServiceDef[] = [
     slug: "visa-check",
     icon: "ShieldCheck",
     color: "from-sky-500 to-indigo-500",
+    image: "/images/services/visa-check.jpg",
     tiers: [
       { id: "selfcheck", priceKrw: 0 },
       { id: "consult", priceKrw: 30000 },
