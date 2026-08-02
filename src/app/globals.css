@@ -1,26 +1,98 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #fafaf9;
+  --foreground: #17181c;
+  --surface: #ffffff;
+  --surface-muted: #f4f4f6;
+  --border-subtle: #e7e7ea;
+  --brand-start: #4f46e5;
+  --brand-mid: #6d28d9;
+  --brand-end: #0d9488;
+  --accent: #0d9488;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-surface: var(--surface);
+  --color-surface-muted: var(--surface-muted);
+  --color-border-subtle: var(--border-subtle);
+  --color-brand-start: var(--brand-start);
+  --color-brand-mid: var(--brand-mid);
+  --color-brand-end: var(--brand-end);
+  --color-accent: var(--accent);
+  --font-sans: var(--font-inter), var(--font-noto-kr), "Apple SD Gothic Neo",
+    "Malgun Gothic", "Leelawadee UI", "Noto Sans Thai", "Noto Sans Lao",
+    "Nirmala UI", "Noto Sans Devanagari", system-ui, sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #0b0b0f;
+    --foreground: #f3f3f5;
+    --surface: #131318;
+    --surface-muted: #1a1a21;
+    --border-subtle: #26262f;
   }
+}
+
+* {
+  border-color: var(--border-subtle);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+}
+
+.gradient-text {
+  background: linear-gradient(
+    100deg,
+    var(--brand-start),
+    var(--brand-mid) 55%,
+    var(--brand-end)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.gradient-brand {
+  background: linear-gradient(
+    100deg,
+    var(--brand-start),
+    var(--brand-mid) 55%,
+    var(--brand-end)
+  );
+}
+
+.glass {
+  background: color-mix(in srgb, var(--surface) 72%, transparent);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.card-surface {
+  background: var(--surface);
+  border: 1px solid var(--border-subtle);
+}
+
+@keyframes float-slow {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-14px);
+  }
+}
+
+.animate-float-slow {
+  animation: float-slow 7s ease-in-out infinite;
+}
+
+html {
+  scroll-behavior: smooth;
 }

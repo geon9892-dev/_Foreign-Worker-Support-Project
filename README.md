@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# KoBridge (코브릿지)
 
-## Getting Started
+한국에 거주하는 베트남·태국·라오스·네팔·인도네시아 등 아시아 이주민을 위한 다국어 생활 지원 플랫폼입니다. 이사, 은행계좌 개설, 행정처리(비자 연장/외국인등록증), 어학당 연결, 학교 연결, 비자 체크, 일자리 연결까지 7가지 핵심 서비스를 정찰제 가격으로 제공합니다.
 
-First, run the development server:
+## Tech stack
+
+- [Next.js](https://nextjs.org) (App Router) + TypeScript
+- Tailwind CSS v4
+- Custom i18n (한국어/English/Tiếng Việt/ภาษาไทย/ພາສາລາວ/नेपाली/Bahasa Indonesia) via React Context, persisted to `localStorage`
+- React 19 Server Actions for the application/contact forms (submissions are written to `.data/*.json` for local development)
+
+## Getting started
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `src/data/services.ts` — service slugs, pricing tiers (fixed prices in KRW), icons
+- `src/lib/i18n/` — language types, per-language dictionaries (`dictionaries/*.ts`), `LanguageProvider`/`useLanguage`
+- `src/components/` — shared UI (Header, Footer, ServiceCard, PriceTag, forms, etc.)
+- `src/app/` — routes: home, `/services`, `/services/[slug]`, `/apply/[slug]`, `/about`, `/contact`
+- `src/app/actions.ts` — Server Actions for the application and contact forms
 
-## Learn More
+## Notes
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Form submissions are persisted to local JSON files under `.data/` (gitignored). This works for `next start` on a persistent server but **not** on a stateless/serverless deployment — swap in a real database or email/webhook integration before going to production.
+- Machine-assisted translations for vi/th/lo/ne/id should be reviewed by native speakers before production use.
