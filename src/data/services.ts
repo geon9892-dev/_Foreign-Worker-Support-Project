@@ -27,9 +27,9 @@ export const services: ServiceDef[] = [
     color: "from-orange-500 to-amber-500",
     image: "/images/services/moving.jpg",
     tiers: [
-      { id: "studio", priceKrw: 350000 },
-      { id: "tworoom", priceKrw: 550000 },
-      { id: "fullpack", priceKrw: 850000 },
+      { id: "studio", priceKrw: 500000 },
+      { id: "tworoom", priceKrw: 1100000 },
+      { id: "fullpack", priceKrw: 1500000 },
     ],
   },
   {
@@ -38,8 +38,8 @@ export const services: ServiceDef[] = [
     color: "from-blue-500 to-cyan-500",
     image: "/images/services/bank.jpg",
     tiers: [
-      { id: "accompany", priceKrw: 80000 },
-      { id: "remote", priceKrw: 40000 },
+      { id: "accompany", priceKrw: 100000 },
+      { id: "remote", priceKrw: 50000 },
     ],
   },
   {
@@ -48,9 +48,9 @@ export const services: ServiceDef[] = [
     color: "from-violet-500 to-purple-500",
     image: "/images/services/admin.jpg",
     tiers: [
-      { id: "visaExtend", priceKrw: 150000 },
-      { id: "alienCard", priceKrw: 60000 },
-      { id: "accompany", priceKrw: 70000 },
+      { id: "visaExtend", priceKrw: 250000 },
+      { id: "alienCard", priceKrw: 90000 },
+      { id: "accompany", priceKrw: 90000 },
     ],
   },
   {
@@ -60,7 +60,7 @@ export const services: ServiceDef[] = [
     image: "/images/services/language-school.jpg",
     tiers: [
       { id: "consult", priceKrw: 0 },
-      { id: "enroll", priceKrw: 100000 },
+      { id: "enroll", priceKrw: 120000 },
     ],
   },
   {
@@ -70,7 +70,7 @@ export const services: ServiceDef[] = [
     image: "/images/services/school.jpg",
     tiers: [
       { id: "consult", priceKrw: 0 },
-      { id: "admission", priceKrw: 200000 },
+      { id: "admission", priceKrw: 250000 },
     ],
   },
   {
@@ -80,8 +80,8 @@ export const services: ServiceDef[] = [
     image: "/images/services/visa-check.jpg",
     tiers: [
       { id: "selfcheck", priceKrw: 0 },
-      { id: "consult", priceKrw: 30000 },
-      { id: "expertreview", priceKrw: 50000 },
+      { id: "consult", priceKrw: 40000 },
+      { id: "expertreview", priceKrw: 70000 },
     ],
   },
   {

@@ -28,6 +28,7 @@ export default function PriceTag({
     <span className={`font-bold ${sizeClasses}`}>
       {formatKrw(amount)}
       <span className="ml-1 text-sm font-medium text-foreground/50">{t.common.won}</span>
+      <span className="text-foreground/50">~</span>
     </span>
   );
 }
