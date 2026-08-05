@@ -1,11 +1,11 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { Menu, X, ArrowRight } from "lucide-react";
 import { useLanguage } from "@/lib/i18n/context";
 import LanguageSwitcher from "./LanguageSwitcher";
-import LogoMark from "./LogoMark";
 
 export default function Header() {
   const { t } = useLanguage();
@@ -22,7 +22,7 @@ export default function Header() {
     <header className="sticky top-0 z-40 glass border-b border-border-subtle">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-2 shrink-0" onClick={() => setOpen(false)}>
-          <LogoMark className="size-9" />
+          <Image src="/images/logo.png" alt={t.common.siteName} width={36} height={36} className="size-9" priority />
           <span className="text-lg font-bold tracking-tight">{t.common.siteName}</span>
         </Link>
 

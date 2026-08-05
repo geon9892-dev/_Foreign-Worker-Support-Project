@@ -30,7 +30,7 @@ const vi: Dictionary = {
     title: "Cuộc sống tại Hàn Quốc,",
     titleHighlight: "trở nên đơn giản.",
     subtitle:
-      "Chuyển nhà, mở tài khoản ngân hàng, thủ tục hành chính, trường học, kiểm tra tình trạng visa và việc làm — nhận hỗ trợ thực sự bằng ngôn ngữ của bạn, với mức giá cố định, minh bạch cho mọi dịch vụ.",
+      "Chuyển nhà, mở tài khoản ngân hàng, thủ tục hành chính, trường tiếng Hàn, kiểm tra tình trạng visa và việc làm — nhận hỗ trợ thực sự bằng ngôn ngữ của bạn, với mức giá cố định, minh bạch cho mọi dịch vụ.",
     ctaPrimary: "Khám phá dịch vụ",
     ctaSecondary: "Liên hệ với chúng tôi",
     trustNote: "Hỗ trợ bằng tiếng Hàn, Anh, Việt, Thái, Lào, Nepal và Indonesia",
@@ -85,7 +85,7 @@ const vi: Dictionary = {
       },
       {
         quote:
-          "Họ đã giúp con gái tôi được nhận vào một trường học địa phương và giải thích từng loại giấy tờ bằng tiếng Nepal. Tôi không thể tự mình làm được việc này.",
+          "Họ đã giúp con gái tôi đăng ký vào một trường tiếng Hàn và giải thích từng loại giấy tờ bằng tiếng Nepal. Tôi không thể tự mình làm được việc này.",
         name: "Sita R.",
         role: "Cư trú dài hạn, Nepal",
       },

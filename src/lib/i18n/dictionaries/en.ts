@@ -30,7 +30,7 @@ const en: Dictionary = {
     title: "Life in Korea,",
     titleHighlight: "made simple.",
     subtitle:
-      "Moving, bank accounts, paperwork, schools, visa checks and jobs — get real help in your own language, with transparent, fixed pricing on every service.",
+      "Moving, bank accounts, paperwork, language schools, visa checks and jobs — get real help in your own language, with transparent, fixed pricing on every service.",
     ctaPrimary: "Explore Services",
     ctaSecondary: "Talk to Us",
     trustNote: "Available in Korean, English, Vietnamese, Thai, Lao, Nepali & Indonesian",
@@ -85,7 +85,7 @@ const en: Dictionary = {
       },
       {
         quote:
-          "They helped my daughter get into a local school and explained every document in Nepali. I couldn't have done it alone.",
+          "They helped my daughter enroll in a Korean language school and explained every document in Nepali. I couldn't have done it alone.",
         name: "Sita R.",
         role: "Resident, Nepal",
       },

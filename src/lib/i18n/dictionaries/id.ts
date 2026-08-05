@@ -30,7 +30,7 @@ const id: Dictionary = {
     title: "Hidup di Korea,",
     titleHighlight: "jadi lebih mudah.",
     subtitle:
-      "Pindahan, rekening bank, dokumen administrasi, sekolah, pengecekan status visa, dan pekerjaan — dapatkan bantuan nyata dalam bahasa Anda sendiri, dengan harga tetap yang transparan untuk setiap layanan.",
+      "Pindahan, rekening bank, dokumen administrasi, sekolah bahasa, pengecekan status visa, dan pekerjaan — dapatkan bantuan nyata dalam bahasa Anda sendiri, dengan harga tetap yang transparan untuk setiap layanan.",
     ctaPrimary: "Jelajahi Layanan",
     ctaSecondary: "Hubungi Kami",
     trustNote: "Tersedia dalam bahasa Korea, Inggris, Vietnam, Thailand, Laos, Nepal & Indonesia",
@@ -85,7 +85,7 @@ const id: Dictionary = {
       },
       {
         quote:
-          "Mereka membantu putri saya masuk sekolah lokal dan menjelaskan setiap dokumen dalam bahasa Nepal. Saya tidak akan bisa melakukannya sendiri.",
+          "Mereka membantu putri saya mendaftar ke sekolah bahasa Korea dan menjelaskan setiap dokumen dalam bahasa Nepal. Saya tidak akan bisa melakukannya sendiri.",
         name: "Sita R.",
         role: "Penduduk, Nepal",
       },
