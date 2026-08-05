@@ -40,7 +40,7 @@ const en: Dictionary = {
     membersLabel: "Migrants supported",
     countries: "6",
     countriesLabel: "Languages supported",
-    services: "7",
+    services: "6",
     servicesLabel: "Core services",
     satisfaction: "4.9/5",
     satisfactionLabel: "Average rating",
@@ -48,13 +48,13 @@ const en: Dictionary = {
   home: {
     servicesTitle: "Everything you need, in one place",
     servicesSubtitle:
-      "From your first day in Korea to settling in for good — seven services, transparent fixed pricing.",
+      "From your first day in Korea to settling in for good — six services, transparent fixed pricing.",
     processTitle: "How it works",
     processSubtitle: "Three simple steps, fully supported in your language.",
     steps: [
       {
         title: "Choose a service",
-        desc: "Browse our seven services and see the fixed price up front — no surprises.",
+        desc: "Browse our six services and see the fixed price up front — no surprises.",
       },
       {
         title: "Apply in your language",
@@ -116,7 +116,7 @@ const en: Dictionary = {
   },
   servicesPage: {
     title: "Our Services",
-    subtitle: "Seven core services, every price fixed and transparent.",
+    subtitle: "Six core services, every price fixed and transparent.",
   },
   serviceDetail: {
     pricingTitle: "Fixed pricing",
@@ -195,23 +195,6 @@ const en: Dictionary = {
       tiers: {
         consult: { label: "Consultation & recommendation", desc: "Free consultation based on your goals, budget and location" },
         enroll: { label: "Enrollment support", desc: "From application forms to tuition payment support" },
-      },
-    },
-    school: {
-      name: "School Connection",
-      shortDesc: "From school placement for your children to university admission.",
-      longDesc:
-        "We support everything from school transfers for multicultural family children to university and graduate admissions for international students.",
-      features: [
-        "Local school placement consultation",
-        "Help preparing transfer documents",
-        "University admission consulting",
-        "Information on special admission programs",
-      ],
-      note: "Admission decisions are made by the school; we support the application process.",
-      tiers: {
-        consult: { label: "Consultation & matching", desc: "School recommendations tailored to your situation" },
-        admission: { label: "Admission process support", desc: "Full support from application to document submission" },
       },
     },
     "visa-check": {

@@ -40,20 +40,20 @@ const ko: Dictionary = {
     membersLabel: "누적 지원 회원",
     countries: "6",
     countriesLabel: "지원 언어",
-    services: "7",
+    services: "6",
     servicesLabel: "핵심 서비스",
     satisfaction: "4.9/5",
     satisfactionLabel: "평균 만족도",
   },
   home: {
     servicesTitle: "필요한 모든 것, 한 곳에서",
-    servicesSubtitle: "한국에 첫발을 디딘 순간부터 정착까지, 7가지 서비스를 정찰제 가격으로 만나보세요.",
+    servicesSubtitle: "한국에 첫발을 디딘 순간부터 정착까지, 6가지 서비스를 정찰제 가격으로 만나보세요.",
     processTitle: "이용 방법",
     processSubtitle: "3단계면 충분합니다. 처음부터 끝까지 모국어로 안내해 드려요.",
     steps: [
       {
         title: "서비스 선택",
-        desc: "7가지 서비스 중 필요한 것을 고르고, 정찰제 가격을 미리 확인하세요.",
+        desc: "6가지 서비스 중 필요한 것을 고르고, 정찰제 가격을 미리 확인하세요.",
       },
       {
         title: "모국어로 신청",
@@ -111,7 +111,7 @@ const ko: Dictionary = {
   },
   servicesPage: {
     title: "서비스 안내",
-    subtitle: "7가지 핵심 서비스, 모든 가격은 투명한 정찰제입니다.",
+    subtitle: "6가지 핵심 서비스, 모든 가격은 투명한 정찰제입니다.",
   },
   serviceDetail: {
     pricingTitle: "정찰제 요금",
@@ -189,23 +189,6 @@ const ko: Dictionary = {
       tiers: {
         consult: { label: "어학당 상담 및 추천", desc: "목적·예산·지역에 맞춘 무료 상담" },
         enroll: { label: "등록 및 서류 대행", desc: "입학 신청서 작성부터 등록금 납부 지원까지" },
-      },
-    },
-    school: {
-      name: "학교 연결",
-      shortDesc: "자녀 학교 배정부터 대학 진학까지 함께합니다",
-      longDesc:
-        "다문화가정 자녀의 초·중·고 편입학부터 유학생의 대학·대학원 진학까지, 맞춤 학교를 연결하고 입학 절차를 지원합니다.",
-      features: [
-        "지역 학교 배정 상담",
-        "편입학 서류 준비 지원",
-        "대학 진학 컨설팅",
-        "다문화 특별전형 정보 제공",
-      ],
-      note: "입학 여부는 해당 학교에서 최종 결정하며, 저희는 지원 절차를 지원합니다.",
-      tiers: {
-        consult: { label: "학교 상담 및 매칭", desc: "자녀·본인 상황에 맞는 학교 추천" },
-        admission: { label: "입학 수속 대행", desc: "지원서 작성부터 서류 제출까지 전 과정 대행" },
       },
     },
     "visa-check": {

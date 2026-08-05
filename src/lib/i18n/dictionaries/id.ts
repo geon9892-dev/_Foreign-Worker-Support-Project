@@ -40,7 +40,7 @@ const id: Dictionary = {
     membersLabel: "Migran yang telah dibantu",
     countries: "6",
     countriesLabel: "Bahasa yang didukung",
-    services: "7",
+    services: "6",
     servicesLabel: "Layanan utama",
     satisfaction: "4.9/5",
     satisfactionLabel: "Rating rata-rata",
@@ -48,13 +48,13 @@ const id: Dictionary = {
   home: {
     servicesTitle: "Semua yang Anda butuhkan, dalam satu tempat",
     servicesSubtitle:
-      "Dari hari pertama Anda di Korea hingga menetap sepenuhnya — tujuh layanan, harga tetap yang transparan.",
+      "Dari hari pertama Anda di Korea hingga menetap sepenuhnya — enam layanan, harga tetap yang transparan.",
     processTitle: "Cara Kerjanya",
     processSubtitle: "Tiga langkah sederhana, didukung penuh dalam bahasa Anda.",
     steps: [
       {
         title: "Pilih layanan",
-        desc: "Jelajahi tujuh layanan kami dan lihat harga tetapnya di awal — tanpa kejutan.",
+        desc: "Jelajahi enam layanan kami dan lihat harga tetapnya di awal — tanpa kejutan.",
       },
       {
         title: "Daftar dalam bahasa Anda",
@@ -116,7 +116,7 @@ const id: Dictionary = {
   },
   servicesPage: {
     title: "Layanan Kami",
-    subtitle: "Tujuh layanan utama, setiap harga tetap dan transparan.",
+    subtitle: "Enam layanan utama, setiap harga tetap dan transparan.",
   },
   serviceDetail: {
     pricingTitle: "Harga tetap",
@@ -195,23 +195,6 @@ const id: Dictionary = {
       tiers: {
         consult: { label: "Konsultasi & rekomendasi", desc: "Konsultasi gratis berdasarkan tujuan, anggaran, dan lokasi Anda" },
         enroll: { label: "Dukungan pendaftaran", desc: "Dari formulir aplikasi hingga dukungan pembayaran kuliah" },
-      },
-    },
-    school: {
-      name: "Koneksi Sekolah",
-      shortDesc: "Dari penempatan sekolah untuk anak Anda hingga penerimaan universitas.",
-      longDesc:
-        "Kami mendukung semuanya, mulai dari pindah sekolah untuk anak-anak keluarga multikultural hingga penerimaan universitas dan pascasarjana untuk pelajar internasional.",
-      features: [
-        "Konsultasi penempatan sekolah lokal",
-        "Bantuan menyiapkan dokumen pindah sekolah",
-        "Konsultasi penerimaan universitas",
-        "Informasi mengenai program penerimaan khusus",
-      ],
-      note: "Keputusan penerimaan dibuat oleh pihak sekolah; kami mendukung proses pengajuannya.",
-      tiers: {
-        consult: { label: "Konsultasi & pencocokan", desc: "Rekomendasi sekolah yang disesuaikan dengan situasi Anda" },
-        admission: { label: "Dukungan proses penerimaan", desc: "Dukungan penuh dari pengajuan hingga penyerahan dokumen" },
       },
     },
     "visa-check": {
