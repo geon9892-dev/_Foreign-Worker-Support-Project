@@ -30,7 +30,7 @@ const vi: Dictionary = {
     title: "Cuộc sống tại Hàn Quốc,",
     titleHighlight: "trở nên đơn giản.",
     subtitle:
-      "Chuyển nhà, mở tài khoản ngân hàng, thủ tục hành chính, trường học, kiểm tra tình trạng visa và việc làm — nhận hỗ trợ thực sự bằng ngôn ngữ của bạn, với mức giá cố định, minh bạch cho mọi dịch vụ.",
+      "Chuyển nhà, mở tài khoản ngân hàng, thủ tục hành chính, trường tiếng Hàn, kiểm tra tình trạng visa và việc làm — nhận hỗ trợ thực sự bằng ngôn ngữ của bạn, với mức giá cố định, minh bạch cho mọi dịch vụ.",
     ctaPrimary: "Khám phá dịch vụ",
     ctaSecondary: "Liên hệ với chúng tôi",
     trustNote: "Hỗ trợ bằng tiếng Hàn, Anh, Việt, Thái, Lào, Nepal và Indonesia",
@@ -40,7 +40,7 @@ const vi: Dictionary = {
     membersLabel: "Người đã được hỗ trợ",
     countries: "6",
     countriesLabel: "Ngôn ngữ hỗ trợ",
-    services: "7",
+    services: "6",
     servicesLabel: "Dịch vụ cốt lõi",
     satisfaction: "4.9/5",
     satisfactionLabel: "Đánh giá trung bình",
@@ -48,13 +48,13 @@ const vi: Dictionary = {
   home: {
     servicesTitle: "Mọi thứ bạn cần, chỉ tại một nơi",
     servicesSubtitle:
-      "Từ ngày đầu tiên đặt chân đến Hàn Quốc cho đến khi ổn định cuộc sống lâu dài — bảy dịch vụ, giá cố định minh bạch.",
+      "Từ ngày đầu tiên đặt chân đến Hàn Quốc cho đến khi ổn định cuộc sống lâu dài — sáu dịch vụ, giá cố định minh bạch.",
     processTitle: "Quy trình hoạt động",
     processSubtitle: "Ba bước đơn giản, được hỗ trợ trọn vẹn bằng ngôn ngữ của bạn.",
     steps: [
       {
         title: "Chọn dịch vụ",
-        desc: "Xem qua bảy dịch vụ của chúng tôi và biết mức giá cố định ngay từ đầu — không phát sinh bất ngờ.",
+        desc: "Xem qua sáu dịch vụ của chúng tôi và biết mức giá cố định ngay từ đầu — không phát sinh bất ngờ.",
       },
       {
         title: "Đăng ký bằng ngôn ngữ của bạn",
@@ -85,7 +85,7 @@ const vi: Dictionary = {
       },
       {
         quote:
-          "Họ đã giúp con gái tôi được nhận vào một trường học địa phương và giải thích từng loại giấy tờ bằng tiếng Nepal. Tôi không thể tự mình làm được việc này.",
+          "Họ đã giúp con gái tôi đăng ký vào một trường tiếng Hàn và giải thích từng loại giấy tờ bằng tiếng Nepal. Tôi không thể tự mình làm được việc này.",
         name: "Sita R.",
         role: "Cư trú dài hạn, Nepal",
       },
@@ -116,7 +116,7 @@ const vi: Dictionary = {
   },
   servicesPage: {
     title: "Dịch vụ của chúng tôi",
-    subtitle: "Bảy dịch vụ cốt lõi, mọi mức giá đều cố định và minh bạch.",
+    subtitle: "Sáu dịch vụ cốt lõi, mọi mức giá đều cố định và minh bạch.",
   },
   serviceDetail: {
     pricingTitle: "Giá cố định",
@@ -195,23 +195,6 @@ const vi: Dictionary = {
       tiers: {
         consult: { label: "Tư vấn & đề xuất trường", desc: "Tư vấn miễn phí dựa trên mục tiêu, ngân sách và khu vực của bạn" },
         enroll: { label: "Hỗ trợ nhập học", desc: "Từ mẫu đơn đăng ký đến hỗ trợ thanh toán học phí" },
-      },
-    },
-    school: {
-      name: "Kết nối trường học",
-      shortDesc: "Từ xếp lớp cho con bạn đến tuyển sinh đại học.",
-      longDesc:
-        "Chúng tôi hỗ trợ mọi việc từ chuyển trường cho con em các gia đình đa văn hóa đến tuyển sinh đại học và sau đại học cho du học sinh quốc tế.",
-      features: [
-        "Tư vấn xếp lớp tại trường học địa phương",
-        "Hỗ trợ chuẩn bị hồ sơ chuyển trường",
-        "Tư vấn tuyển sinh đại học",
-        "Thông tin về các chương trình tuyển sinh đặc biệt",
-      ],
-      note: "Quyết định tuyển sinh do nhà trường đưa ra; chúng tôi hỗ trợ trong quá trình nộp hồ sơ.",
-      tiers: {
-        consult: { label: "Tư vấn & kết nối trường", desc: "Đề xuất trường học phù hợp với hoàn cảnh của bạn" },
-        admission: { label: "Hỗ trợ quy trình tuyển sinh", desc: "Hỗ trợ trọn gói từ nộp đơn đến nộp hồ sơ" },
       },
     },
     "visa-check": {

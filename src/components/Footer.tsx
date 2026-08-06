@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useLanguage } from "@/lib/i18n/context";
 import { services } from "@/data/services";
@@ -14,9 +15,7 @@ export default function Footer() {
         <div className="grid grid-cols-2 gap-10 md:grid-cols-4">
           <div className="col-span-2 md:col-span-1">
             <Link href="/" className="flex items-center gap-2">
-              <span className="flex size-9 items-center justify-center rounded-xl gradient-brand text-white font-bold text-sm">
-                KB
-              </span>
+              <Image src="/images/logo.png" alt={t.common.siteName} width={36} height={36} className="size-9" />
               <span className="text-lg font-bold tracking-tight">{t.common.siteName}</span>
             </Link>
             <p className="mt-3 text-sm text-foreground/60 max-w-xs">{t.footer.tagline}</p>

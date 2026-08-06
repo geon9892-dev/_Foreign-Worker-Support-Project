@@ -2,12 +2,12 @@ import type { Dictionary } from "../types";
 
 const ko: Dictionary = {
   meta: {
-    title: "코브릿지 — 한국 생활의 든든한 다리",
+    title: "KoBridge — 한국 생활의 든든한 다리",
     description:
       "이사, 은행계좌, 비자, 학교, 일자리까지 — 아시아 이주민을 위한 다국어 생활 지원 플랫폼.",
   },
   common: {
-    siteName: "코브릿지",
+    siteName: "KoBridge",
     tagline: "한국 생활의 든든한 다리",
     applyNow: "신청하기",
     learnMore: "자세히 보기",
@@ -30,7 +30,7 @@ const ko: Dictionary = {
     title: "한국 생활,",
     titleHighlight: "이제 어렵지 않아요.",
     subtitle:
-      "이사, 은행계좌 개설, 행정처리, 학교 연결, 비자 체크, 일자리 연결까지 — 모국어로 상담받고, 모든 서비스는 정찰제로 투명하게 이용하세요.",
+      "이사, 은행계좌 개설, 행정처리, 어학당 연결, 비자 체크, 일자리 연결까지 — 모국어로 상담받고, 모든 서비스는 정찰제로 투명하게 이용하세요.",
     ctaPrimary: "서비스 둘러보기",
     ctaSecondary: "상담 신청하기",
     trustNote: "한국어, 영어, 베트남어, 태국어, 라오어, 네팔어, 인도네시아어 지원",
@@ -40,20 +40,20 @@ const ko: Dictionary = {
     membersLabel: "누적 지원 회원",
     countries: "6",
     countriesLabel: "지원 언어",
-    services: "7",
+    services: "6",
     servicesLabel: "핵심 서비스",
     satisfaction: "4.9/5",
     satisfactionLabel: "평균 만족도",
   },
   home: {
     servicesTitle: "필요한 모든 것, 한 곳에서",
-    servicesSubtitle: "한국에 첫발을 디딘 순간부터 정착까지, 7가지 서비스를 정찰제 가격으로 만나보세요.",
+    servicesSubtitle: "한국에 첫발을 디딘 순간부터 정착까지, 6가지 서비스를 정찰제 가격으로 만나보세요.",
     processTitle: "이용 방법",
     processSubtitle: "3단계면 충분합니다. 처음부터 끝까지 모국어로 안내해 드려요.",
     steps: [
       {
         title: "서비스 선택",
-        desc: "7가지 서비스 중 필요한 것을 고르고, 정찰제 가격을 미리 확인하세요.",
+        desc: "6가지 서비스 중 필요한 것을 고르고, 정찰제 가격을 미리 확인하세요.",
       },
       {
         title: "모국어로 신청",
@@ -67,7 +67,7 @@ const ko: Dictionary = {
     languagesTitle: "모국어로 편하게",
     languagesSubtitle: "언제든 언어를 전환하세요. 모든 페이지, 신청서, 가격이 완벽히 번역되어 있습니다.",
     testimonialsTitle: "회원들의 실제 이야기",
-    testimonialsSubtitle: "수천 명의 이주민이 인생의 중요한 순간에 코브릿지를 선택했습니다.",
+    testimonialsSubtitle: "수천 명의 이주민이 인생의 중요한 순간에 KoBridge를 선택했습니다.",
     testimonials: [
       {
         quote: "한국어를 한마디도 못했는데 한 번에 계좌를 개설했어요. 직원분이 모든 걸 통역해 주셨습니다.",
@@ -75,12 +75,12 @@ const ko: Dictionary = {
         role: "공장 근로자, 베트남",
       },
       {
-        quote: "비자 연장이 너무 복잡하고 불안했는데, 코브릿지가 서류를 처리해주고 앞으로 무엇을 해야 할지 정확히 알려줬어요.",
+        quote: "비자 연장이 너무 복잡하고 불안했는데, KoBridge가 서류를 처리해주고 앞으로 무엇을 해야 할지 정확히 알려줬어요.",
         name: "솜차이 P.",
         role: "E-9 근로자, 태국",
       },
       {
-        quote: "딸이 동네 학교에 입학하도록 도와주고, 서류 하나하나를 네팔어로 설명해 주셨어요. 혼자였다면 못 했을 거예요.",
+        quote: "딸의 한국어 어학당 등록을 도와주고, 서류 하나하나를 네팔어로 설명해 주셨어요. 혼자였다면 못 했을 거예요.",
         name: "시타 R.",
         role: "거주자, 네팔",
       },
@@ -106,12 +106,12 @@ const ko: Dictionary = {
       },
     ],
     ctaTitle: "진짜 도움이 필요하신가요?",
-    ctaSubtitle: "수천 명의 이주민이 선택한 코브릿지와 함께 한국 생활을 시작하세요.",
+    ctaSubtitle: "수천 명의 이주민이 선택한 KoBridge와 함께 한국 생활을 시작하세요.",
     ctaButton: "지금 시작하기",
   },
   servicesPage: {
     title: "서비스 안내",
-    subtitle: "7가지 핵심 서비스, 모든 가격은 투명한 정찰제입니다.",
+    subtitle: "6가지 핵심 서비스, 모든 가격은 투명한 정찰제입니다.",
   },
   serviceDetail: {
     pricingTitle: "정찰제 요금",
@@ -191,23 +191,6 @@ const ko: Dictionary = {
         enroll: { label: "등록 및 서류 대행", desc: "입학 신청서 작성부터 등록금 납부 지원까지" },
       },
     },
-    school: {
-      name: "학교 연결",
-      shortDesc: "자녀 학교 배정부터 대학 진학까지 함께합니다",
-      longDesc:
-        "다문화가정 자녀의 초·중·고 편입학부터 유학생의 대학·대학원 진학까지, 맞춤 학교를 연결하고 입학 절차를 지원합니다.",
-      features: [
-        "지역 학교 배정 상담",
-        "편입학 서류 준비 지원",
-        "대학 진학 컨설팅",
-        "다문화 특별전형 정보 제공",
-      ],
-      note: "입학 여부는 해당 학교에서 최종 결정하며, 저희는 지원 절차를 지원합니다.",
-      tiers: {
-        consult: { label: "학교 상담 및 매칭", desc: "자녀·본인 상황에 맞는 학교 추천" },
-        admission: { label: "입학 수속 대행", desc: "지원서 작성부터 서류 제출까지 전 과정 대행" },
-      },
-    },
     "visa-check": {
       name: "비자 체크",
       shortDesc: "내 체류자격, 지금 정확히 확인하세요",
@@ -285,19 +268,19 @@ const ko: Dictionary = {
     ],
   },
   about: {
-    title: "코브릿지 소개",
+    title: "KoBridge 소개",
     subtitle: "한국 생활, 그 누구도 혼자 겪지 않도록.",
     missionTitle: "우리의 미션",
     missionBody:
-      "매년 베트남, 태국, 라오스, 네팔, 인도네시아 등에서 수십만 명의 근로자와 유학생, 가족들이 더 나은 미래를 위해 한국을 찾습니다. 하지만 언어 장벽 때문에 은행계좌 개설, 비자 갱신, 학교 입학처럼 간단한 일들이 큰 장애물이 되곤 합니다. 코브릿지는 여러분의 언어를 사용하는 실제 상담원과 한국 행정 시스템을 잘 아는 전문가를 연결해, 언제나 공정하고 투명한 가격으로 문제를 해결해 드립니다.",
-    valuesTitle: "코브릿지가 지키는 가치",
+      "매년 베트남, 태국, 라오스, 네팔, 인도네시아 등에서 수십만 명의 근로자와 유학생, 가족들이 더 나은 미래를 위해 한국을 찾습니다. 하지만 언어 장벽 때문에 은행계좌 개설, 비자 갱신, 학교 입학처럼 간단한 일들이 큰 장애물이 되곤 합니다. KoBridge는 여러분의 언어를 사용하는 실제 상담원과 한국 행정 시스템을 잘 아는 전문가를 연결해, 언제나 공정하고 투명한 가격으로 문제를 해결해 드립니다.",
+    valuesTitle: "KoBridge가 지키는 가치",
     values: [
       { title: "투명성", desc: "모든 가격은 신청 전에 고정되어 공개됩니다. 예상치 못한 추가 비용은 없습니다." },
       { title: "존중", desc: "체류 자격이나 배경과 관계없이 모든 회원을 존중으로 대합니다." },
       { title: "모국어 지원", desc: "한국어, 영어, 베트남어, 태국어, 라오어, 네팔어, 인도네시아어를 지원합니다." },
       { title: "합법적이고 안전하게", desc: "언제나 안전하고 합법적인 길로 안내하며, 우회하지 않습니다." },
     ],
-    howTitle: "코브릿지 이용 절차",
+    howTitle: "KoBridge 이용 절차",
     howSubtitle: "처음부터 끝까지 간단하고 투명한 과정입니다.",
     howSteps: [
       { title: "필요한 것을 알려주세요", desc: "서비스를 둘러보거나 다국어 상담팀에 직접 문의하세요." },
@@ -336,7 +319,7 @@ const ko: Dictionary = {
     contact: "문의하기",
     languagesTitle: "언어",
     rights: "All rights reserved.",
-    disclaimer: "코브릿지는 컨설팅 및 행정 지원 서비스를 제공하는 민간 업체이며, 정부기관이 아니고 출입국 심사 결과를 보장하지 않습니다.",
+    disclaimer: "KoBridge는 컨설팅 및 행정 지원 서비스를 제공하는 민간 업체이며, 정부기관이 아니고 출입국 심사 결과를 보장하지 않습니다.",
   },
   nationalities: [
     "베트남",
